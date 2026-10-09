@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.contenido{
+     height: 100vh;
+    background-size: cover;
+    background-position: c;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+#zona1{
+    background-image: url('../images/logo.jpg');
+}
+#zona2{
+    background-image: url('../images/banda.jpg');
+}
+#zona3{
+    background-image: url('../images/1999.jpg');
+}
+#zona4{
+    background-image: url('../images/2001.jpg');
+}
+#zona5{
+    background-image: url('../images/2004.png');
+}
+#zona6{
+    background-image: url('../images/2008.jpg');
+}
+#zona7{
+    background-image: url('../images/2014.jpg');
+}
+#zona8{
+    background-image: url('../images/2019.jpg');
+}
+#zona9{
+    background-image: url('../images/2022.jpg');
+}
+nav{
+    position: fixed;
+    left: 200px;
+    top:30%;
+    z-index:100;
+    transition: 0.4s ease;
+    transform: translateX(-50%);
+}
+ul{
+    list-style:none; /*quitar los puntos del menu*/
+}
+ul a{
+    display:block;
+    color:#ff1a1a;
+    text-decoration: none;
+    border:1px solid darksalmon;
+    padding:10px 0; /*dar espacio*/
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    /*text-transform: uppercase; letras mayusculas*/ 
+    transition: 0.4s ease;
+}
+a:hover{
+    transform: translateX(10%);
+    background-color: red;
+    color:beige;
+    border:0;
+}
+.fijo{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 100px;
+    height: 90px;
+}
